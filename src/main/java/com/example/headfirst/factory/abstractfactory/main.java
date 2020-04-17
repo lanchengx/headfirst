@@ -14,8 +14,10 @@ public class main {
         PizzaStore chStore = new ChicagoPizzaStore();
 
         Pizza nyPizza = nyStore.orderPizza("newyorkcheesepizza");
+        System.out.println(nyPizza.getName());
 
         Pizza chPizza = chStore.orderPizza("chicagoclampizza");
+        System.out.println(nyPizza.getName());
     }
 
 }
