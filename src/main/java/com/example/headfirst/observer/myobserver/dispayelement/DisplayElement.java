@@ -1,4 +1,4 @@
-package com.example.headfirst.myobserver.dispayelement;
+package com.example.headfirst.observer.myobserver.dispayelement;
 
 /**
  * 展示接口

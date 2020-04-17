@@ -1,8 +1,8 @@
-package com.example.headfirst.myobserver;
+package com.example.headfirst.observer.myobserver;
 
-import com.example.headfirst.myobserver.dispayelement.DisplayElement;
-import com.example.headfirst.myobserver.observer.Observer;
-import com.example.headfirst.myobserver.subject.impl.WeatherData;
+import com.example.headfirst.observer.myobserver.dispayelement.DisplayElement;
+import com.example.headfirst.observer.myobserver.observer.Observer;
+import com.example.headfirst.observer.myobserver.subject.impl.WeatherData;
 
 /**
  * @ProjectName headfirst

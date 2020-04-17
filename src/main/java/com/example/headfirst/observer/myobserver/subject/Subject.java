@@ -1,6 +1,6 @@
-package com.example.headfirst.myobserver.subject;
+package com.example.headfirst.observer.myobserver.subject;
 
-import com.example.headfirst.myobserver.observer.Observer;
+import com.example.headfirst.observer.myobserver.observer.Observer;
 
 /**
  * 主题

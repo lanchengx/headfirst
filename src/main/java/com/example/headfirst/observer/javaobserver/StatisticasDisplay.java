@@ -1,6 +1,6 @@
-package com.example.headfirst.javaobserver;
+package com.example.headfirst.observer.javaobserver;
 
-import com.example.headfirst.myobserver.dispayelement.DisplayElement;
+import com.example.headfirst.observer.myobserver.dispayelement.DisplayElement;
 
 import java.util.Observable;
 import java.util.Observer;

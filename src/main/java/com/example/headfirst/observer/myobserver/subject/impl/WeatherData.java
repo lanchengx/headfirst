@@ -1,7 +1,7 @@
-package com.example.headfirst.myobserver.subject.impl;
+package com.example.headfirst.observer.myobserver.subject.impl;
 
-import com.example.headfirst.myobserver.observer.Observer;
-import com.example.headfirst.myobserver.subject.Subject;
+import com.example.headfirst.observer.myobserver.observer.Observer;
+import com.example.headfirst.observer.myobserver.subject.Subject;
 import lombok.Data;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.example.headfirst.javaobserver;
+package com.example.headfirst.observer.javaobserver;
 
 
 

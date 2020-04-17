@@ -1,4 +1,4 @@
-package com.example.headfirst.myobserver.observer;
+package com.example.headfirst.observer.myobserver.observer;
 
 /**
  * 观察者实现接口

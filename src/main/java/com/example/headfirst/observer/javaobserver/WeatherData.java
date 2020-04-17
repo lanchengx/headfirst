@@ -1,9 +1,8 @@
-package com.example.headfirst.javaobserver;
+package com.example.headfirst.observer.javaobserver;
 
-import com.example.headfirst.myobserver.observer.Observer;
+
 import lombok.Data;
 
-import java.util.ArrayList;
 import java.util.Observable;
 
 /**
