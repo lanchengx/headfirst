@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.headfirst.factory.abstractfactory</OriginalElement>
+  <nodes>
+    <node x="0.0" y="587.0">com.example.headfirst.factory.abstractfactory.store.ChicagoPizzaStore</node>
+    <node x="196.0" y="337.5">com.example.headfirst.factory.abstractfactory.pizza.newyorkpizza.NewYorkCheesePizza</node>
+    <node x="1012.0" y="316.0">com.example.headfirst.factory.abstractfactory.pizza.chicagopizza.ChicagoClamPizza</node>
+    <node x="408.0" y="337.5">com.example.headfirst.factory.abstractfactory.pizza.newyorkpizza.NewYorkClamPizza</node>
+    <node x="604.0" y="316.0">com.example.headfirst.factory.abstractfactory.pizza.chicagopizza.ChicagoCheesePizza</node>
+    <node x="208.0" y="587.0">com.example.headfirst.factory.abstractfactory.store.NewYorePizzaStore</node>
+    <node x="531.5" y="0.0">com.example.headfirst.factory.abstractfactory.pizza.Pizza</node>
+    <node x="104.0" y="459.0">com.example.headfirst.factory.abstractfactory.store.PizzaStore</node>
+    <node x="441.0" y="459.0">com.example.headfirst.factory.abstractfactory.main</node>
+    <node x="0.0" y="337.5">com.example.headfirst.factory.abstractfactory.pizza.newyorkpizza.NewYorkPepperoni</node>
+    <node x="816.0" y="316.0">com.example.headfirst.factory.abstractfactory.pizza.chicagopizza.ChicagoPepperoni</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.headfirst.factory.abstractfactory.store.ChicagoPizzaStore" target="com.example.headfirst.factory.abstractfactory.store.PizzaStore">
+      <point x="0.0" y="-27.5" />
+      <point x="94.0" y="562.0" />
+      <point x="151.0" y="562.0" />
+      <point x="-47.0" y="39.0" />
+    </edge>
+    <edge source="com.example.headfirst.factory.abstractfactory.store.NewYorePizzaStore" target="com.example.headfirst.factory.abstractfactory.store.PizzaStore">
+      <point x="0.0" y="-27.5" />
+      <point x="302.0" y="562.0" />
+      <point x="245.0" y="562.0" />
+      <point x="47.0" y="39.0" />
+    </edge>
+    <edge source="com.example.headfirst.factory.abstractfactory.pizza.newyorkpizza.NewYorkPepperoni" target="com.example.headfirst.factory.abstractfactory.pizza.Pizza">
+      <point x="0.0" y="-27.5" />
+      <point x="88.0" y="276.0" />
+      <point x="542.5833333333334" y="276.0" />
+      <point x="-55.41666666666663" y="128.0" />
+    </edge>
+    <edge source="com.example.headfirst.factory.abstractfactory.pizza.newyorkpizza.NewYorkClamPizza" target="com.example.headfirst.factory.abstractfactory.pizza.Pizza">
+      <point x="0.0" y="-27.5" />
+      <point x="496.0" y="296.0" />
+      <point x="586.9166666666666" y="296.0" />
+      <point x="-11.083333333333371" y="128.0" />
+    </edge>
+    <edge source="com.example.headfirst.factory.abstractfactory.pizza.newyorkpizza.NewYorkCheesePizza" target="com.example.headfirst.factory.abstractfactory.pizza.Pizza">
+      <point x="0.0" y="-27.5" />
+      <point x="292.0" y="286.0" />
+      <point x="564.75" y="286.0" />
+      <point x="-33.25" y="128.0" />
+    </edge>
+    <edge source="com.example.headfirst.factory.abstractfactory.pizza.chicagopizza.ChicagoPepperoni" target="com.example.headfirst.factory.abstractfactory.pizza.Pizza">
+      <point x="0.0" y="-49.0" />
+      <point x="904.0" y="286.0" />
+      <point x="631.25" y="286.0" />
+      <point x="33.25" y="128.0" />
+    </edge>
+    <edge source="com.example.headfirst.factory.abstractfactory.pizza.chicagopizza.ChicagoClamPizza" target="com.example.headfirst.factory.abstractfactory.pizza.Pizza">
+      <point x="0.0" y="-49.0" />
+      <point x="1100.0" y="276.0" />
+      <point x="653.4166666666667" y="276.0" />
+      <point x="55.41666666666674" y="128.0" />
+    </edge>
+    <edge source="com.example.headfirst.factory.abstractfactory.pizza.chicagopizza.ChicagoCheesePizza" target="com.example.headfirst.factory.abstractfactory.pizza.Pizza">
+      <point x="0.0" y="-49.0" />
+      <point x="700.0" y="296.0" />
+      <point x="609.0833333333334" y="296.0" />
+      <point x="11.083333333333371" y="128.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="537.0" y="341.0" />
+  <SelectedNodes>
+    <node>com.example.headfirst.factory.abstractfactory.store.PizzaStore</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

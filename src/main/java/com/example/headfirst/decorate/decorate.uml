@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.headfirst.decorate</OriginalElement>
+  <nodes>
+    <node x="177.5" y="169.5">com.example.headfirst.decorate.component.CondimentDecorator</node>
+    <node x="498.0" y="0.0">com.example.headfirst.decorate.component.Beverage</node>
+    <node x="0.0" y="525.0">com.example.headfirst.decorate.Main</node>
+    <node x="0.0" y="296.0">com.example.headfirst.decorate.batching.MilkFoam</node>
+    <node x="192.0" y="296.0">com.example.headfirst.decorate.batching.Mocha</node>
+    <node x="375.0" y="296.0">com.example.headfirst.decorate.batching.Milk</node>
+    <node x="569.5" y="148.0">com.example.headfirst.decorate.coffee.DeepRoastingCoffee</node>
+    <node x="389.5" y="148.0">com.example.headfirst.decorate.coffee.EspressoCoffee</node>
+    <node x="781.5" y="148.0">com.example.headfirst.decorate.coffee.ComprehensiveCoffee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.headfirst.decorate.coffee.DeepRoastingCoffee" target="com.example.headfirst.decorate.component.Beverage">
+      <point x="0.0" y="-49.0" />
+      <point x="665.5" y="128.0" />
+      <point x="584.875" y="128.0" />
+      <point x="17.375" y="49.0" />
+    </edge>
+    <edge source="com.example.headfirst.decorate.coffee.EspressoCoffee" target="com.example.headfirst.decorate.component.Beverage">
+      <point x="0.0" y="-49.0" />
+      <point x="469.5" y="128.0" />
+      <point x="550.125" y="128.0" />
+      <point x="-17.375" y="49.0" />
+    </edge>
+    <edge source="com.example.headfirst.decorate.coffee.ComprehensiveCoffee" target="com.example.headfirst.decorate.component.Beverage">
+      <point x="0.0" y="-49.0" />
+      <point x="881.5" y="118.0" />
+      <point x="619.625" y="118.0" />
+      <point x="52.125" y="49.0" />
+    </edge>
+    <edge source="com.example.headfirst.decorate.batching.Milk" target="com.example.headfirst.decorate.component.CondimentDecorator">
+      <point x="0.0" y="-92.0" />
+      <point x="456.5" y="271.0" />
+      <point x="337.5" y="271.0" />
+      <point x="64.0" y="27.5" />
+    </edge>
+    <edge source="com.example.headfirst.decorate.component.CondimentDecorator" target="com.example.headfirst.decorate.component.Beverage">
+      <point x="0.0" y="-27.5" />
+      <point x="273.5" y="118.0" />
+      <point x="515.375" y="118.0" />
+      <point x="-52.125" y="49.0" />
+    </edge>
+    <edge source="com.example.headfirst.decorate.batching.Mocha" target="com.example.headfirst.decorate.component.CondimentDecorator">
+      <point x="0.0" y="-92.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.example.headfirst.decorate.batching.MilkFoam" target="com.example.headfirst.decorate.component.CondimentDecorator">
+      <point x="0.0" y="-92.0" />
+      <point x="86.0" y="271.0" />
+      <point x="209.5" y="271.0" />
+      <point x="-64.0" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="435.5" y="279.0" />
+  <SelectedNodes>
+    <node>com.example.headfirst.decorate.Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
