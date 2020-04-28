@@ -1,4 +1,4 @@
-package com.example.headfirst.command;
+package com.example.headfirst.command.simple.command;
 
 /**
  * @Author: lanchengx
