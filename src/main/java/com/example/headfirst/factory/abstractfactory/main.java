@@ -3,6 +3,7 @@ package com.example.headfirst.factory.abstractfactory;
 import com.example.headfirst.factory.abstractfactory.pizza.Pizza;
 import com.example.headfirst.factory.abstractfactory.store.ChicagoPizzaStore;
 import com.example.headfirst.factory.abstractfactory.store.NewYorePizzaStore;
+import com.example.headfirst.factory.abstractfactory.store.PizzaStore;
 
 /**
  * @Author: lanchengx

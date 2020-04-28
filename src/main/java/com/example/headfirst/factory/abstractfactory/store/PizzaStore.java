@@ -1,4 +1,4 @@
-package com.example.headfirst.factory.abstractfactory;
+package com.example.headfirst.factory.abstractfactory.store;
 
 
 import com.example.headfirst.factory.abstractfactory.pizza.Pizza;

@@ -21,5 +21,4 @@ public class ChicagoCheesePizza extends Pizza {
         System.out.println("Chicago cheese pizza Prepare" );
     }
 
-
 }
